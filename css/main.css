@@ -14,6 +14,7 @@ h6 {
   font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
 }
 
+/* MAIN CONTAINER */
 .container {
   max-width: 1080px;
   margin: 0 auto;
@@ -23,6 +24,8 @@ h6 {
 img {
   width: 100%;
 }
+
+/* work on skip links */
 
 .main-nav ul {
   list-style: none;
