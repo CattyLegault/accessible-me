@@ -61,6 +61,7 @@ img {
   background-color: black;
   color: white;
   padding: .5em 1em;
+  list-style-type: none;
 }
 
 .skip-links a:focus {
