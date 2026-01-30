@@ -99,6 +99,10 @@ form button {
   text-transform: uppercase;
 }
 
+form button:hover {
+  text-decoration: underline;
+}
+
 .site-footer {
   padding: 2rem 0;
 }
