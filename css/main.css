@@ -1,10 +1,11 @@
-/* fix contrasting colours */
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
   background-color: rgb(255, 255, 255);
   margin: 0;
   padding: 0;
 }
+
+/* Fix contrasting colours */
 
 h1,
 h2,
