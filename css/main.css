@@ -24,6 +24,7 @@ h6 {
 
 img {
   width: 100%;
+  border: 1px solid black;
 }
 
 /* work for skip links */
