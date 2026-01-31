@@ -60,12 +60,13 @@
       <!-- Add Schema Information where applicable -->
       <div role="form" id="contact-section" aria-label="contact-section" class="contact-section">
         <h1>Contact Us</h1>
+        <!-- form -->
         <form action="thanks.html">
           <label for="fullname">Full Name</label>
-          <input type="text" placeholder="Full Name">
-          <label for="email">Email address</label>
+          <input autocorrect="off" id="fullname" type="text" placeholder="Full Name">
+          <label autocomplete="email" id="email" for="email">Email address</label>
           <input type="text" placeholder="Email">
-          <label for="Subject">Subject</label>
+          <label id="subject" for="subject">Subject</label>
           <input type="text" placeholder="Subject">
           <b>Your Message</b>
           <textarea></textarea>
