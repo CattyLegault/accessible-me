@@ -109,6 +109,10 @@ form button:hover {
   text-decoration: underline;
 }
 
+form button:focus {
+  border: 4px solid black;
+}
+
 .site-footer {
   padding: 2rem 0;
 }
