@@ -27,6 +27,12 @@ img {
   border: 1px solid black;
 }
 
+.banner img {
+border: 1px solid black;
+width: 500px;
+height: 300px;
+}
+
 /* work for skip links */
 
 .main-nav ul {
