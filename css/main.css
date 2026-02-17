@@ -32,11 +32,8 @@ h1 {
 
 img {
   width: 100%;
-  margin: 0.5rem;
-}
-
-.banner {
-border: 1px solid black;
+  /* margin: 0.5rem; */
+  border: 2px solid black;
 }
 
 /* work for skip links */
@@ -92,6 +89,11 @@ border: 1px solid black;
 
 .skip-links a:focus {
   top: 0;
+}
+
+form {
+  margin: 1rem;
+  padding-right: 1rem;
 }
 
 form input,
