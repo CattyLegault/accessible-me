@@ -70,6 +70,10 @@ border: 1px solid black;
   text-decoration: underline;
 }
 
+.owner ul li {
+  font-size: larger;
+}
+
 /* skip links */
 
 .skip-links{
