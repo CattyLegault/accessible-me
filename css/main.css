@@ -33,7 +33,7 @@ h1 {
 img {
   width: 100%;
   /* margin: 0.5rem; */
-  border: 2px solid black;
+  padding-top: 0.5rem;
 }
 
 /* work for skip links */
@@ -81,7 +81,7 @@ img {
 
 .skip-links a {
   position: absolute;
-  top: -3em;
+  top: -50%;
   background-color: black;
   color: white;
   padding: .5em 1em;
@@ -120,6 +120,8 @@ form button {
 
 form button:hover {
   text-decoration: underline;
+  background-color: black;
+  color: white;
 }
 
 form button:focus {
