@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Accessible Me</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&family=Stick+No+Bills:wght@300&display=swap"
       rel="stylesheet"
@@ -29,14 +31,14 @@
       <div class="site-header">
         <h1>Jam Box Studios</h1>
         <div role="navigation" id="main-nav" class="main-nav">
-          <ul>
+          <ul id="navigation">
             <li><a href="#">Home</a></li>
             <li><a href="#">Products</a></li>
             <li><a href="#">Reservation</a></li>
             <li><a href="#">Studio</a></li>
           </ul>
           <div role="banner" class="banner">
-            <img src="https://picsum.photos/1200/900" alt="image from Picsum Photos"> 
+            <img src="https://picsum.photos/1200/900" alt=" a random selection of photos from Picsum Photos"> 
         </div>
 
         <!-- Add Schema Information where applicable -->
@@ -54,15 +56,15 @@
             magni fugit culpa voluptatibus, inventore eaque, eligendi
             voluptatum! Voluptate iusto error voluptatibus.
           </p>
-          <div class="owner">
-            <h1>Meet the owner</h1>
+          <div aria-roledescription="owner">
+            <h2>Meet the owner</h2>
             <ul>
               <li>Name: John Doe</li>
               <li>Title: CEO</li>
               <li>Email: johnjoe@jambox.ca</li>
               <li>Phone: 613-000-0000</li>
             </ul>
-            <h1>Address</h1>
+            <h3>Address</h3>
             <p>
               Jambox Studios 123 Guitar Road, Musicville, Danceistan B3T 0L0
             </p>
@@ -75,7 +77,7 @@
             aria-label="contact-section"
             class="contact-section"
           >
-            <h1>Contact Us</h1>
+            <h2>Contact Us</h2>
             <!-- form -->
             <form action="thanks.html">
               <label for="fullname">Full Name</label>
